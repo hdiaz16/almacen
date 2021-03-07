@@ -4,8 +4,8 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-	public function index()
+	public function inicio_sesion()
 	{
-		return view('index');
+		return view('autenticacion/login');
 	}
 }
